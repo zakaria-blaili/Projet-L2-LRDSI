@@ -31,6 +31,7 @@ a{
   height: 80px;
   width: 100%;
   border-bottom: 1px solid #E5E5E5;
+  padding-right: 20px;
 }
 .header .container{
   display: flex;
@@ -82,6 +83,9 @@ a{
 }
 .header .main-nav > li >a:hover::before{
   left: 0;
+}
+.this_page{
+  border: 1px solid #146f63;
 }
 .connect{font-size: 17;
   display: flex;
@@ -201,3 +205,157 @@ li {
   color: white;
 } */
 /* end nav Bar */
+/* Contact*/
+.contacts_layout{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 40px;
+}
+.contact_frame{
+  
+  height: 350px;
+  width: 350px;
+  position: relative;
+  background-image: url("/Public/images/contact_frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+.contact_frame_content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 17px;
+}
+.contact_icon{
+  height: 35px;width: 35px; display: block; left: 50%;position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+/* footer */
+/* .footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  width: 100%;
+  padding-top: 20px;
+  background-color: #0F3057;
+  margin-top: -4px;
+  color: white;
+  line-height: 1.5;
+}
+.row{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  padding-bottom: 60px;
+}
+.col{
+  padding: 10px;
+
+}
+.col h2{
+  padding-bottom: 10px;
+}
+.last{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.footer .col .text-logo{
+  font-weight: 700;
+font-size: 12px;
+line-height: 170%;
+letter-spacing: -0.019em;
+position: relative;
+top: -25px;
+}
+.footer .col h1{
+position: relative;
+}
+.footer .col .titre-logo{
+  left: 80px;
+  font-weight: 400;
+font-size: 70px;
+line-height: 101px;
+letter-spacing: 0.02em;
+}
+.footer .col span img{
+  width: 11.73px;
+height: 64px;
+}
+.footer .col p{
+  font-weight: 600;
+font-size: 17px;
+line-height: 150%;
+letter-spacing: -0.019em;
+}
+.footer .col .lien{
+  color: white;
+  left: 70px;
+  position: relative;
+}
+.footer .col .color{
+  color: #146F63;
+  font-size: 20px;
+}
+.footer .col .deux{
+  bottom: -40px;
+  display: flex;
+  justify-content: center;
+}
+.footer .col .trois{
+  bottom: -13px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: 0.02em;
+}
+.footer .col .img-footer img{
+  width: 24px;
+height: 25.6px;
+}
+.footer .col .img-footer{
+  position: relative;
+  left: 20%;
+  bottom: -40px;
+}
+.footer .col .img-footer a {
+  position: relative;
+  color: white;
+  font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: -0.022em;
+top: -6px;
+}
+.footer .col .img-footer .left{
+  position: relative;
+  left: -15%;
+}
+.footer .col .img-footer .right-ft{
+  position: relative;
+  left: -6px;
+}
+.footer .col .img-footer .right-sec{
+  position: relative;
+  left: -10%;
+}
+.footer .col .img-footer .right-thr{
+  position: relative;
+  left: -8%;
+} */
+/* End Footer  */
