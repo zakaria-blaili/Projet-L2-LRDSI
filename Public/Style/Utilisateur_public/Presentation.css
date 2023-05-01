@@ -115,16 +115,35 @@
     background: #146f63;
     color: white;
   }
-  /* home section   */
-  .title {
-    margin-left: 37px;
-    margin-top: 30px;
-    display: flex;
-    gap: 5px;
-  }
-  .title > span {
-    margin-top: 2px;
-    color: #146f63;
-    font-size: 20px;
-    font-weight: 600;
+  .title{
+    text-align: center;
+   font-size: 22px;
+   font-weight: 600;
+   margin-top: 10px;
+  
+}
+ .content{
+    margin-top: 40px;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);position: absolute;
+   font-size: 16px;
+   text-align: center;
+   width: 700px;
+  
+  } 
+
+.directrice{
+    
+   left: 37px;
+    bottom: 20px;
+  position: absolute;
+   font-size: 16px;
+   text-align: left;
+   color: #8A8B8F;
+   width: 200px;
+ 
+}
+  .line{
+   
   }
