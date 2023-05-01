@@ -137,7 +137,7 @@ a{
     margin-left: 25px;
 }
 .acceuil .text h1{
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 600;
     letter-spacing: -2px;
 }
@@ -149,6 +149,7 @@ a{
     color: #146F63;
 }
 .acceuil .text h2 {
+    font-size: 20px;
     padding-top: 50px;
 }
 .acceuil .text h2 .second::after{
@@ -278,8 +279,9 @@ align-items: center;
     text-align: center;
 }
 .footer .col .text-logo{
+    padding-top: 5px;
     font-weight: 700;
-font-size: 12px;
+font-size: 10px;
 line-height: 170%;
 letter-spacing: -0.019em;
 position: relative;
@@ -301,7 +303,7 @@ height: 64px;
 }
 .footer .col p{
     font-weight: 600;
-font-size: 17px;
+font-size: 14px;
 line-height: 150%;
 letter-spacing: -0.019em;
 }
@@ -320,11 +322,14 @@ letter-spacing: -0.019em;
     justify-content: center;
 }
 .footer .col .trois{
+    width: 300px;
     bottom: -13px;
+    top: 10px;
+    left: 40px;
     display: flex;
     justify-content: center;
     font-weight: 700;
-font-size: 32px;
+font-size: 20px;
 line-height: 40px;
 letter-spacing: 0.02em;
 }
@@ -341,7 +346,7 @@ height: 25.6px;
     position: relative;
     color: white;
     font-weight: 400;
-font-size: 20px;
+font-size: 17px;
 line-height: 150%;
 letter-spacing: -0.022em;
 top: -6px;
