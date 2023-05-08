@@ -7,7 +7,7 @@
 
 body {
   font-family: "Poppins";
-  background-color: #e7f0ef;
+  background-color: #f8f8f8;
 }
 html {
   scroll-behavior: smooth;
@@ -77,7 +77,7 @@ a {
   transition: 0.4s;
 }
 .header .main-nav > li > a:hover {
-  background-color: #e7f0ef;
+  background-color: #fafafa;
   height: 80px;
 }
 .header .main-nav > li > a:hover::before {
@@ -86,27 +86,16 @@ a {
 .this_page {
   border: 1px solid #146f63;
 }
-.connect {
-  font-size: 17;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 20px;
-  width: 120px;
-  height: 40px;
-  border: 1px solid #146f63;
-  background-color: #e7f0ef;
-}
+
 .connecter {
   margin-top: 20px;
   margin-left: 20px;
-  padding-top: 7px;
+  padding-top: 10px;
   text-align: center;
   width: 140px;
   height: 40px;
   background: #e7f0ef;
-  font-size: 17;
+  font-size: 17px;
   color: #333333;
   text-decoration: none;
   border: 1px solid #146f63;
@@ -115,7 +104,10 @@ a {
   background: #146f63;
   color: white;
 }
+
 /* end nav bar */
+
+/* Start Home  */
 .title {
   text-align: center;
   font-size: 22px;
@@ -133,21 +125,90 @@ a {
   z-index: -5;
   border: 1px solid #e5e5e5;
 }
-.content {
-  margin-top: 10px;
-  margin-left: 300px;
-  position: relative;
-  font-size: 16px;
-  text-align: left;
-  width: 700px;
+.Equipe{
+    position: relative;
+    background-color: #e7f0ef;
+    margin: 20px 25px;
+    padding: 5px 0px;
+    border-radius: 20px;
+}
+.title1 {
+  margin-left: 37px;
+  margin-top: 30px;
+  display: flex;
+  gap: 5px;
+}
+.title1 > span {
+  margin-top: 2px;
+  color: #146f63;
+  font-size: 20px;
+  font-weight: 600;
+}
+.Row {
+  display: flex;
+  gap: 200px;
+}
+.mission > p {
+  width: 420px;
+  padding-top: 10px;
+  margin-left: 40px;
+  font-size: 15px;
+}
+.mission > h6 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-left: 37px;
+  margin-top: 2px;
+  color: #146f63;
+  font-weight: 200;
+  font-size: 17px;
+  width: 40px;
+  border-bottom: 1px solid #8a8b8f;
+}
+.members{
+    width: 300px;
+}
+.members > h6 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-left: 37px;
+  margin-top: 2px;
+  color: #146f63;
+  font-weight: 200;
+  font-size: 17px;
+  width: 80px;
+  border-bottom: 1px solid #8a8b8f;
+}
+.members > p {
+  width: 300px;
+  padding-top: 10px;
+  margin-left: 45px;
+  font-size: 15px;
+}
+.members > span {
+  color: #8a8b8f;
+  padding-top: 10px;
+  margin-left: 45px;
+  font-size: 15px;
 }
 
-.directrice {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  display: block;
-  font-size: 14px;
-  text-align: left;
-  color: #8a8b8f;
-  width: 180px;
+.discover {
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 10px 0px;
+  width: 120px;
+  height: 40px;
+  background: #f8f8f8;
+  font-size: 17;
+  color: #333333;
+  text-decoration: none;
+  border: 1px solid #146f63;
+}
+.discover:hover {
+  background: #146f63;
+  color: white;
 }
