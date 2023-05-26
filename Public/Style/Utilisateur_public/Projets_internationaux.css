@@ -49,6 +49,7 @@ a {
   align-items: center;
   color: #333333;
   border-bottom: 2px solid #146f63;
+  margin-bottom: 65px;
 }
 .header .main-nav {
   display: flex;
@@ -101,12 +102,12 @@ a {
 .connecter {
   margin-top: 20px;
   margin-left: 20px;
-  padding-top: 7px;
+  padding-top: 10px;
   text-align: center;
   width: 140px;
   height: 40px;
   background: #e7f0ef;
-  font-size: 17;
+  font-size: 17px;
   color: #333333;
   text-decoration: none;
   border: 1px solid #146f63;
@@ -115,6 +116,38 @@ a {
   background: #146f63;
   color: white;
 }
+.projets{
+  position: relative;
+}
+.sous-menu{
+ visibility: hidden;
+  text-align: center;
+list-style-type: none;
+position: relative;
+left: 0px;
+overflow: hidden;
+max-height: 200px;
+padding: 10;
+}
+.projets:hover > .sous-menu{
+  visibility:visible;
+  background-color: #e7f0ef;
+}
+.sous-menu>li>a{
+  color: #333333;
+}
+.sous-menu>li{
+  padding:5px;
+}
+.sous-menu>li:hover{
+  background-color: #146f63;
+  
+}
+.sous-menu>li:hover >a{
+ color: white;
+  
+}
+
 /* home section   */
 .title {
   margin-left: 37px;
@@ -123,7 +156,7 @@ a {
   gap: 5px;
 }
 .title > span {
-  margin-top: 2px;
+  margin-top: 5px;
   color: #146f63;
   font-size: 20px;
   font-weight: 600;

@@ -49,6 +49,7 @@ a {
   align-items: center;
   color: #333333;
   border-bottom: 2px solid #146f63;
+  margin-bottom: 65px;
 }
 .header .main-nav {
   display: flex;
@@ -101,12 +102,12 @@ a {
 .connecter {
   margin-top: 20px;
   margin-left: 20px;
-  padding-top: 7px;
+  padding-top: 10px;
   text-align: center;
   width: 140px;
   height: 40px;
   background: #e7f0ef;
-  font-size: 17;
+  font-size: 17px;
   color: #333333;
   text-decoration: none;
   border: 1px solid #146f63;
@@ -115,6 +116,38 @@ a {
   background: #146f63;
   color: white;
 }
+.projets{
+  position: relative;
+}
+.sous-menu{
+ visibility: hidden;
+  text-align: center;
+list-style-type: none;
+position: relative;
+left: 0px;
+overflow: hidden;
+max-height: 200px;
+padding: 10;
+}
+.projets:hover > .sous-menu{
+  visibility:visible;
+  background-color: #e7f0ef;
+}
+.sous-menu>li>a{
+  color: #333333;
+}
+.sous-menu>li{
+  padding:5px;
+}
+.sous-menu>li:hover{
+  background-color: #146f63;
+  
+}
+.sous-menu>li:hover >a{
+ color: white;
+  
+}
+
 /* end nav bar */
 .title {
   text-align: center;
@@ -134,7 +167,7 @@ a {
   border: 1px solid #e5e5e5;
 }
 .content {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 300px;
   position: relative;
   font-size: 16px;
@@ -143,7 +176,7 @@ a {
 }
 
 .directrice {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 20px;
   display: block;
   font-size: 14px;
