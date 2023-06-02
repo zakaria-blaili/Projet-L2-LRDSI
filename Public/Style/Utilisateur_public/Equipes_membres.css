@@ -137,10 +137,7 @@ a {
   color: white;
 }
 
-
 /* end nav bar */
-
-/* Start Home  */
 .title {
   text-align: center;
   font-size: 22px;
@@ -158,76 +155,56 @@ a {
   z-index: -5;
   border: 1px solid #e5e5e5;
 }
-/* menu */
-
-/* .horizontal-scroll{
-  width: 100px;
-  height: 300px;
-  overflow-y: auto;
-  overflow-x: hidden;
-  transform: rotate(-90deg);
-  transform-origin: right top;
-  transform:rotate(-90deg) translateY(-100px);
-}*/
-
-.horizontal-scroll {
-  display: flex;
+.Equipe {
   position: relative;
-  top: 200;
-  left: 0;
-  width: auto;
-  height: 100%;
-  margin: 0;
-  
-  padding-top: 0px;
-  overflow-y: hidden;
+  background-color: #e7f0ef;
+  margin: 40px 300px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+.title1 {
+  margin-left: 37px;
   margin-top: 30px;
+  display: flex;
+  gap: 5px;
 }
-.div1 {
-  
-  max-width: 350px;
-  min-width: 340px;
-  height: 350px;
-  margin: 10px 20px;
-  padding: 20px;
-  background-size:cover;
-  text-align: center;
-  background-image: url("/Public/images/card.png");
-  background-repeat: no-repeat;
+.title1 > span {
+  margin-top: 2px;
+  color: #146f63;
+  font-size: 20px;
+  font-weight: 600;
 }
-.content {
-
-  width: 0px;
-  position: absolute;
-  margin-top: 40px;
-  margin-left: 5px;
+.mission > h6 {
+  text-align: left;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  margin-left: 37px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #146f63;
+  font-weight: 200;
+  font-size: 20px;
+  /* max-width: 110px;
+    border-bottom: 1px solid #8A8B8F; */
 }
-.content > h5 {
-  width: 300px;
-  padding: 10px;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-size: 17px;
+.mission > p {
+  margin-right: 20px;
+  margin-left: 40px;
+  /* padding-top: 10px; */
+  padding-bottom: 3px;
+  font-size: 15px;
+  border-bottom: 2px solid #146f63;
 }
-.discover {
-  display: inline-block;
-  text-align: center;
-  margin-top: 0px;
-  margin-left: 90px;
-  padding: 10px 0px;
-  width: 120px;
-  height: 40px;
-  background: #f8f8f8;
-  font-size: 17;
-  color: #333333;
-  text-decoration: none;
-  border: 1px solid #146f63;
- 
+#titre {
+    padding-bottom: 3px;
+  font-weight: 400;
+  display: block;
+  color: #146f63;
 }
-.discover:hover {
-  background: #146f63;
-  color: white;
-}
-::-webkit-scrollbar-track {
-  background: #f8f8f8; 
+.mission > p > span {
+    padding-bottom: 10px;
+  color: black;
+  display: block;
+  font-size: 15px;
 }

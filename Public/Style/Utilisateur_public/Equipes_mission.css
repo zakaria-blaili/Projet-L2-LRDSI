@@ -1,0 +1,229 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Poppins";
+    background-color: #f8f8f8;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  a {
+    text-decoration: none;
+  }
+  /* nav Bar */
+  
+  .header {
+    font-size: 17;
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    padding-right: 20px;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .header .logo img {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    border-bottom: 2px solid #146f63;
+    margin-bottom: 65px;
+  }
+  .header .main-nav {
+    display: flex;
+  }
+  .header .main-nav > li > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    color: #333333;
+    padding: 0 30px;
+    transition: 0.3s;
+    overflow: hidden;
+  }
+  .header .main-nav > li > a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #146f63;
+    bottom: 0;
+    left: -100%;
+    transition: 0.4s;
+  }
+  .header .main-nav > li > a:hover {
+    background-color: #fafafa;
+    height: 80px;
+  }
+  .header .main-nav > li > a:hover::before {
+    left: 0;
+  }
+  .this_page {
+    border: 1px solid #146f63;
+  }
+  
+  .connecter {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    text-align: center;
+    width: 140px;
+    height: 40px;
+    background: #e7f0ef;
+    font-size: 17px;
+    color: #333333;
+    text-decoration: none;
+    border: 1px solid #146f63;
+  }
+  .connecter:hover {
+    background: #146f63;
+    color: white;
+  }
+  
+  .projets {
+    position: relative;
+  }
+  .sous-menu {
+    visibility: hidden;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    left: 0px;
+    overflow: hidden;
+    max-height: 200px;
+    padding: 10;
+  }
+  .projets:hover > .sous-menu {
+    visibility: visible;
+    background-color: #e7f0ef;
+  }
+  .sous-menu > li > a {
+    color: #333333;
+  }
+  .sous-menu > li {
+    padding: 5px;
+  }
+  .sous-menu > li:hover {
+    background-color: #146f63;
+  }
+  .sous-menu > li:hover > a {
+    color: white;
+  }
+  
+  /* end nav bar */
+  .title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    /* margin-top: 10px; */
+    margin: 20px;
+  }
+  .line {
+    margin-top: 5px;
+    position: relative;
+    height: 0%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -5;
+    border: 1px solid #e5e5e5;
+  }
+  .Equipe{
+    position: relative;
+    background-color: #e7f0ef;
+    margin: 20px 25px;
+   padding-top: 5px;
+   padding-bottom: 20px;
+    border-radius: 20px;
+}
+.title1 {
+  margin-left: 37px;
+  margin-top: 30px;
+  display: flex;
+  gap: 5px;
+}
+.title1 > span {
+  margin-top: 2px;
+  color: #146f63;
+  font-size: 20px;
+  font-weight: 600;
+}
+.Row {
+  display: flex;
+  gap: 200px;
+}
+.mission > p {
+  width: 420px;
+  padding-top: 10px;
+  margin-left: 40px;
+  font-size: 15px;
+}
+.mission > h6 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-left: 37px;
+  margin-top: 2px;
+  color: #146f63;
+  font-weight: 200;
+  font-size: 17px;
+  width: 40px;
+  border-bottom: 1px solid #8a8b8f;
+}
+.members{
+    width: 300px;
+    
+}
+
+.members > span {
+  color: #8a8b8f;
+  padding-top: 10px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.discover {
+  display: inline-block;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 60px;
+  padding: 10px 0px;
+  width: 120px;
+  height: 40px;
+  background: #f8f8f8;
+  font-size: 17;
+  color: #333333;
+  text-decoration: none;
+  border: 1px solid #146f63;
+}
+.discover:hover {
+  background: #146f63;
+  color: white;
+}
