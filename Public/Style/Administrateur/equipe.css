@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  font-family: 'Poppins';
+  background-color: #F8F8F8;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Start nav */
+
+.header{
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #E5E5E5;
+    position: absolute;
+}
+.header .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.side{
+    display: flex;
+    background-color: #0F3057;
+    justify-content: center;
+    width: 350px;
+    height: 100vh;
+    z-index: 10;
+    position: relative;
+}
+.side .container h2{
+    font-weight: 400;
+font-size: 70px;
+color: white;
+padding-bottom: 80px;
+}
+.side .container .img img{
+    width: 10px;
+}
+.side .main-nav{
+    display: flex;
+    flex-direction: column;
+}
+.side .main-nav li span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    height: 50px;
+    font-weight: 600;
+    position: relative;
+    color: white;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.side .main-nav .all-img img{
+    position: relative;
+    left: -10px;
+    padding-right: 20px;
+}
+.side .main-nav .all-img .right{
+    position: relative;
+    left: 10px;
+}
+.side .main-nav .all-img .left{
+    position: relative;
+    left: -10px;
+}
+.side .main-nav .all-img .right-img{
+    position: relative;
+    left: -1px;
+}
+.side .main-nav .all-img .left-img{
+    position: relative;
+    left: -18px;
+}
+.side .main-nav .one{
+    background-color: #368E83;
+    border-radius: 10px;
+}
